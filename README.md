@@ -25,3 +25,5 @@ How to access files:
 
 Conclution:
 We can find various insights ie. max sales in states, bymale or female, in which product category , by what occupation and which age group. 
+
+NOTE: TO RUN THE R PROGRAM YOU NEED TO CHANGE OPEN API KEY TO ACCESS AI ASSISTENT ALSO REMOVE THE COMMENT OF GOOGLE AUTH WHICH ARE MENTIONED IN AT TOP.
