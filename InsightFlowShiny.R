@@ -21,10 +21,13 @@ library(DBI)
 library(dplyr)
 library(RSQLite)
 
+
+#Following 3 keys need to be updated
 # Google OAuth Credentials
-# google_client_id <- "663108994897-vtd667mntdbudcjh74hog59famrnesam.apps.googleusercontent.com"
-# google_client_secret <- "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"
-Sys.setenv(OPENAI_API_KEY = "-proj-U2O6hzCBojSlCIGP6kVfowgxP0KDEHGLTnIYSLXSzxRJt_ImJZDFMMeMsJexk2NVWKlThj6i46T3BlbkFJa8WoS9c_0MxsTavrQZuIr7xUezWAoSX9iYmMJPJ7ffvsTg5bFhYJcwoIBFaB13tbploo4RvhcA")
+google_client_id <- "CLINT-ID"
+google_client_secret <- "SECTECT-ID"
+#AI assitent key
+Sys.setenv(OPENAI_API_KEY = "OPEN-AI-KEY")
 
 # Define OAuth Scopes
 scopes <- c(
